@@ -1,0 +1,25 @@
+name: ocarina
+description: Play local (assets or external/internal storage) audio files with flutter on Android or iOS
+version: 0.1.2
+homepage: https://github.com/erickzanardo/ocarina
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+  flutter: ">=1.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: xyz.erick.ocarina
+        pluginClass: OcarinaPlugin
+      ios:
+        pluginClass: OcarinaPlugin
