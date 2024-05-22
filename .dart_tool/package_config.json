@@ -146,13 +146,13 @@
       "languageVersion": "3.3"
     },
     {
-      "name": "custom_player",
+      "name": "ocarina",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     }
   ],
-  "generated": "2024-05-22T07:40:33.843384Z",
+  "generated": "2024-05-22T08:09:31.467667Z",
   "generator": "pub",
   "generatorVersion": "3.4.0",
   "flutterRoot": "file:///Users/ashwani/Documents/Flutter/flutter3.10",
